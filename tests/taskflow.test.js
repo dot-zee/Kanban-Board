@@ -132,3 +132,4 @@ assert(typeof formatted === 'string' && formatted.includes('2026'), 'Date format
 
 console.log(`\nResults: ${passed} passed, ${failed} failed.`);
 if (failed > 0) process.exit(1);
+
